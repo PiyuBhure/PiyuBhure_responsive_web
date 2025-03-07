@@ -19,6 +19,7 @@ html{
    scroll-behavior: smooth;
    scroll-padding-top: 6rem ;
    overflow-x: hidden;
+   background:linear-gradient(rgb(245, 214, 219),white);
  
 }
 section{
@@ -169,16 +170,44 @@ header .navbar a{
 }
 .icons-conts .icons span{
    font-size: 1.7rem;}
-
+.box{
+    width: 48%
+}
 
 
 @media (max-width:450px) {
 html{
 font-size: 50%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
 }
+img{
+    max-width: 100%;
+    height: auto;
+display: block;
+margin: 0 auto;
+}
+.image{
+    text-align: center;
+}
+.image img{
+    display: inline-block;
+}
+
+
+
+    
+
+
 .heading{
     font-size: 3rem;
 }
+}
+
+
+.box{
+    width: 100%;
 }
 
 /*home section start*/
@@ -189,7 +218,7 @@ section{
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background-image: url(pink-floral.jpg);
+    background:linear-gradient(pink,white);
     background-size: cover;
     background-position: center;
     
@@ -224,6 +253,7 @@ section{
     padding: 2rem 0;
     padding-bottom: 3rem;
     margin-top: 4rem;
+    background:linear-gradient(pink,white);
    }
 .About .row .Video-container{
 flex: 1 1 40rem;
@@ -508,6 +538,7 @@ color: #eee;
         font-size: 2rem;
         color:black;
         border-top: .1rem solid rgba(0,0,0,.1);
+        background: linear-gradient(pink,white);
     }
     .footer .credit span{
         color: var(--pink);
